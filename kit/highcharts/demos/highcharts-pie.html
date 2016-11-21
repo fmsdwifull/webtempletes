@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<script type="text/javascript" src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="highcharts/highcharts.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                $('#container').highcharts({
+                    chart: {
+						
+                    },
+
+                    title: {
+                        text: 'Browser market shares at a specific website, 2010'
+                    },
+                    tooltip: {
+                        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                    },
+
+                    series: [{
+                        type: 'pie',
+                        name: 'Browser share',
+                        data: [
+                            ['Firefox',   45.0],
+                            ['IE',       26.8],
+                            ['Opera',     6.2],
+                        ]
+                    }]
+                });
+            });
+        </script>
+    </head>
+    <body>
+	
+	
+	
+
+		
+		
+
+        <div id="container" style="min-width: 400px; height: 400px; margin: 0 auto">
+	    22222222222222222222
+或者
+<!-- 		        var chart;
+				chart = new Highcharts.Chart({  
+				chart : {  
+				renderTo : 'container',//注意这里的名称和body里面的div的id要对应  
+				type : 'pie'  
+				},  
+				title : {  
+					text : 'Fruit Consumption'  
+				},  
+		 
+				series : [ {  
+				name : 'Jane',  
+				data : [
+							['Firefox',   45.0],
+                            ['IE',       26.8],
+                            ['Opera',     6.2],
+						]
+				}]  
+				}); --> 
+		
+		
+		
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+
+
